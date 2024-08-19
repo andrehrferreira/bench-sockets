@@ -41,6 +41,33 @@ $ docker build -t server-rust-tcp .
 $ docker run -p 4001:4001 server-rust-tcp
 ```
 
+Build UDP Server
+-------------
+
+
+```bash
+$ sudo sysctl -w net.core.rmem_max=26214400
+$ sudo sysctl -w net.core.wmem_max=26214400
+```
+
+```bash
+$ cd server-rust-udp
+$ cargo build --release
+```
+
+Run
+```bash
+$ ./target/release/server-rust-udp
+```
+
+Docker
+```bash
+$ cd server-rust-udp
+$ docker build -t server-rust-udp .
+$ docker run -p 5001:5001 server-rust-udp
+```
+
+
 Build Client
 -------------
 

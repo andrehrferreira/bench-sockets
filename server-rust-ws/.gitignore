@@ -1,5 +1,5 @@
 # Rust compilados e artefatos de build
-/target/
+/target
 
 # Arquivos de configuração e logs de build do Cargo
 **/*.rs.bk

@@ -1,5 +1,5 @@
 [package]
-name = "server-rust-tcp"
+name = "server-rust-udp"
 version = "0.1.0"
 edition = "2018"
 
@@ -10,5 +10,5 @@ tokio-tungstenite = "0.14"
 dashmap = "5.1"
 
 [[bin]]
-name = "server-rust-tcp"
+name = "server-rust-udp"
 path = "src/main.rs"

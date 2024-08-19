@@ -1,0 +1,12 @@
+node_modules
+package-lock.json
+yarn.lock
+server-cpp/websocketpp
+server-cpp/packages
+server-cpp/.vs/**
+server-cpp/.vs/**/*
+venv
+build
+dist
+*.spec
+.idea/*

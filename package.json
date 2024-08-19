@@ -1,0 +1,11 @@
+{
+	"name": "bench-socket",
+	"version": "1.0.0",
+	"description": "",
+	"main": "client.js",
+	"author": "Andre Ferreira",
+	"license": "MIT",
+	"dependencies": {
+		"ws": "^8.18.0"
+	}
+}
