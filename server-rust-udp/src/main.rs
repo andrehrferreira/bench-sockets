@@ -128,13 +128,11 @@ async fn main() {
 
     tokio::spawn(receive_messages(socket.clone(), clients.clone(), sent_counter.clone()));
 
-    // Este loop mantém o servidor ativo indefinidamente
     loop {
         if clients.len() == clients_to_wait_for {
             send_ready_message(clients.clone(), sent_counter.clone()).await;
         }
-
-        // Aguarda um breve intervalo para manter o servidor ativo e funcional
+        
         tokio::time::sleep(tokio::time::Duration::from_millis(100)).await;
     }
 }
