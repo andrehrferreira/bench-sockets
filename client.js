@@ -4,8 +4,8 @@ const dgram = require('dgram');
 
 const env = process.env;
 const SERVERS = [
-    { name: "Rust WebSocket", url: "ws://127.0.0.1:3001", protocol: 'ws' },
-    { name: "Rust TCP", url: "127.0.0.1:4001", protocol: 'tcp' },
+    //{ name: "Rust WebSocket", url: "ws://127.0.0.1:3001", protocol: 'ws' },
+    //{ name: "Rust TCP", url: "127.0.0.1:4001", protocol: 'tcp' },
     { name: "Rust UDP", url: "127.0.0.1:5001", protocol: 'udp' },
 ];
 

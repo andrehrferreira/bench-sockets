@@ -3,8 +3,15 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "client.js",
-	"author": "Andre Ferreira",
 	"license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andrehrferreira/bench-sockets-rust"
+    },
+    "bugs": {
+        "url": "https://github.com/andrehrferreira/bench-sockets-rust/issues"
+    },
+    "homepage": "https://github.com/andrehrferreira/bench-sockets-rust",
 	"dependencies": {
 		"ws": "^8.18.0"
 	}
