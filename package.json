@@ -1,8 +1,9 @@
 {
-	"name": "bench-socket",
-	"version": "1.0.0",
+	"name": "bench-socket-rust",
+	"version": "0.0.1",
 	"description": "",
 	"main": "client.js",
+	"author": "Andre Ferreira <andrehrf@gmail.com>",
 	"license": "MIT",
     "repository": {
         "type": "git",
